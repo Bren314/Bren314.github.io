@@ -1,3 +1,35 @@
+ .u-section-1 {
+  background-image: url("images/c613f3ab610c91cf3451c82a6a26313a4ae0cd796c5391321761ae509cc671290652b4d9d8ec99eee1ae61a6fda888125e3308ec4fdc7a430a92eb_1280.jpg");
+}
+
 .u-section-1 .u-sheet-1 {
-  min-height: 400px;
+  min-height: 440px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 363px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 278px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 209px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 132px;
+  }
 }
